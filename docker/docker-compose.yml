@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  web:
+    image: yahialm/flask-app:1
+    ports:
+      - "5000:5000"
